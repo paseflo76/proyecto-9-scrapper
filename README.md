@@ -31,14 +31,12 @@ Esta API REST permite gestionar juegos obtenidos mediante scraping. Incluye la i
 1️⃣ **Clonar el repositorio:**
  **Configurar variables de entorno:**
 Crea un archivo `.env` en la raíz del proyecto y agrega:
-```env
-DB_URL=mongodb://localhost:27017/tu_basededatos
-PORT=3000
-```
+
+DB_URL=mongodb+srv://paseflo34:OO9qi0tHU4qYwEpg@cluster0.gjgy2ew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 4️⃣ **Iniciar el servidor:**
 
-npm start
+npm run start
 ```
 
 ---
